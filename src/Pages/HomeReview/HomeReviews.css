@@ -9,7 +9,7 @@
   background-color: rgba(32, 178, 171, 0.486);
 }
 .doctor-card img {
-  width: 70%;
+  width: 50%;
   margin: 5px auto;
   border-radius: 50%;
   object-fit: cover;

@@ -32,7 +32,7 @@ const MakeAdmin = () => {
         e.preventDefault()
     }
     return (
-        <div>
+        <div className="container mx-auto my-5">
             <h2>Make an Admin</h2>
             <form onSubmit={handleAdminSubmit}>
                 <TextField
@@ -40,11 +40,13 @@ const MakeAdmin = () => {
                     label="Email"
                     type="email"
                     onBlur={handleOnBlur}
+                    // className="mb-3"
+
                     variant="standard" />
-                <Button type="submit" variant="contained">Make Admin</Button>
+                <Button type="submit" variant="contained" className="btn btn-warning">Make Admin</Button>
             </form>
-            {success && <Alert severity="success">Made Admin successfully!</Alert>}
-        </div>
+            {success && <Alert severity="success" >Made Admin successfully!</Alert>}
+        </div >
     );
 };
 

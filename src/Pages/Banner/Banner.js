@@ -4,35 +4,35 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <div className='banner '>
+        <div className='banner mb-5'>
             <Carousel fade>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 image img-fluid"
-                        src="https://www.kilroy.net/media/t3flmjdy/travel-festival-a-backpackers-guide-to-around-the-world.jpg"
+                        src="https://images.unsplash.com/photo-1551281812-f1e0aabc4650?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
                         alt="First slide"
                     />
                     <Carousel.Caption>
                         <h3 className='banner-title'>Enjoy Wonderful Experiences In All Around The World</h3>
-                        <p className='w-75 mx-auto'>By breaking the country into smaller, more manageable areas, Make My Trip aims to create a virtual travel experience that allows the user to explore the sights of those places right from their computer.</p>
+                        <p className='w-75 mx-auto'>The first sunglasses, made from flat panes of smoky quartz called Ai Tai, meaning ‘dark clouds' which offered no corrective powers but did protect the eyes from glare, were used in China in the 12th century or possibly earlier. Documents describe the use of such crystal sunglasses by judges in ancient Chinese courts to conceal their facial expressions while questioning witnesses</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 image img-fluid"
-                        src="https://worldoftravelphotography.com/wp-content/uploads/2018/03/Beautiful-Sunsets-1024x683.jpg"
+                        src="https://www.spex4less.com/blog/wp-content/uploads/2020/12/xcoatings-and-lenses-blog-1-770x317.jpg.pagespeed.ic.KTqanq3qH2.jpg"
                         alt="Second slide"
                     />
 
                     <Carousel.Caption>
                         <h3 className='banner-title'>Get More Of What You've Been Missing.</h3>
-                        <p className='w-75 mx-auto'> You are eligible for a refund if you cancel before the first 90 days of your subscription and have not completed a booking (i.e., stayed in a hotel or participated in an experience you booked). If you cancel after 90 days or you have already completed a booking, you will not be refunded and will continue to have access to Tripadvisor Plus until the end of your current term. Your ability to cancel or modify an individual booking depends on the terms and conditions associated with the specified hotel or experience supplier(s). Visit our Tripadvisor Plus Subscription Details page for more details.</p>
+                        <p className='w-75 mx-auto'> It is said that the Roman emperor Nero liked to watch gladiator fights using cut emeralds. These, however, appear to have worked rather like mirrors</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 image img-fluid"
-                        src="https://www.paddlecanada.com/wp-content/uploads/2017/12/membership.jpg"
+                        src="https://parade.com/wp-content/uploads/2018/06/national-sunglasses-day-2018-ftr.jpg"
                         alt="Third slide"
                     />
 

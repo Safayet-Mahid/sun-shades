@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className="about-us footer-coloum col-lg-3 col-sm-7 col-md-5">
                         <h4>About Us</h4>
                         <hr />
-                        <p>MAKE MY TRIP is an exceptional travelling organisation. Our diverse selection includes hikinh, coving, glacier walks, ice climbing, mountain climbing etc!</p>
+                        <p>SUN SHADE is an exceptional eye shades brand. Our diverse selection includes gucci, prada, raymonds, , dolce gabbana etc!</p>
                     </div>
                     <div className="quick-links footer-coloum col-lg-2 col-sm-5 col-md-2">
                         <h4>Quick Links</h4>
@@ -21,8 +21,8 @@ const Footer = () => {
                         <Router>
                             <li><NavLink to="/home">Home</NavLink></li>
                             <li><NavLink to="/about">About Us</NavLink></li>
-                            <li><NavLink to="/services">Services</NavLink></li>
-                            <li><NavLink to="/doctor">Members</NavLink></li>
+                            <li><NavLink to="/services">Products</NavLink></li>
+                            <li><NavLink to="/doctor">Contacts</NavLink></li>
                         </Router>
                     </div>
                     <div className="follow-us footer-coloum col-lg-2 col-sm-5 col-md-2">

@@ -89,7 +89,8 @@ const Register = () => {
 
                 </Grid>
                 <Grid item xs={12} md={6}>
-                    <img src={login} alt='' />
+                    <img style={{ width: "100%", height: "100%" }} src="https://www.serengeti-eyewear.com/dw/image/v2/BFJW_PRD/on/demandware.static/-/Library-Sites-SerengetiEUSharedLibrary/default/dw4a8d8e1d/SERENGETI-B2C-HOMEPAGE-HAMEL-mobile.jpg" alt='' />
+
                 </Grid>
 
             </Grid>

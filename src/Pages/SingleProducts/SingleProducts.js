@@ -12,8 +12,8 @@ const SingleProducts = (props) => {
             </div>
             <div className="service-description">
                 <h5 className='mb-3 fw-bold text-right'>{Name}</h5>
-                <p>{Price}</p>
                 <p>{Specifications}</p>
+                <p className="fw-bold fs-3"> $ {Price}</p>
 
 
                 <Link to={`/productsInfo/${_id}`}><button className='btn btn-outline-info' >Purchace Now</button></Link>

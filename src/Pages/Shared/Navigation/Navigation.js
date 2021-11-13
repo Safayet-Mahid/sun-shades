@@ -13,9 +13,9 @@ const Navigation = () => {
     const { user, logOut, admin } = useAuth();
     return (
         <>
-            <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand='lg'>
+            <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand='lg' >
                 <Container>
-                    <Navbar.Brand className='brand'><Link to='/home'><span className="text-danger">MAKE MY TRIP</span></Link></Navbar.Brand>
+                    <Navbar.Brand className='brand'><Link to='/home'><span className="text-danger">SUN SHADES</span></Link></Navbar.Brand>
 
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
@@ -24,9 +24,7 @@ const Navigation = () => {
                             <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
                             <Nav.Link as={HashLink} to="/products">Explore</Nav.Link>
 
-                            <Nav.Link as={HashLink} to="/teammembers">Members</Nav.Link>
-                            <Nav.Link as={HashLink} to="/departments">Departments</Nav.Link>
-                            {/* <Nav.Link as={HashLink} to="/registration">Registration</Nav.Link> */}
+
                             {
                                 user?.email ?
                                     <>
@@ -41,6 +39,7 @@ const Navigation = () => {
                                                 <NavDropdown.Item href="#action4"><Nav.Link as={HashLink} style={{ color: "navy", fontWeight: 600 }} to="/makeadmin">Make an Admin</Nav.Link></NavDropdown.Item>
                                                 <NavDropdown.Item href="#action4"><Nav.Link as={HashLink} style={{ color: "navy", fontWeight: 600 }} to="/manageallorders">Manage All Orders</Nav.Link></NavDropdown.Item>
                                                 <NavDropdown.Item href="#action4"><Nav.Link as={HashLink} style={{ color: "navy", fontWeight: 600 }} to="/addproduct">Add New Product</Nav.Link></NavDropdown.Item>
+                                                <NavDropdown.Item href="#action4"><Nav.Link as={HashLink} style={{ color: "navy", fontWeight: 600 }} to="/manageproducts">Manage Products</Nav.Link></NavDropdown.Item>
                                             </>}
 
                                         </NavDropdown>

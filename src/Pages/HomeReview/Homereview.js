@@ -13,11 +13,11 @@ const Homereview = () => {
     return (
         <div>
             <h2 className='text-center my-5'>Our Client says</h2>
-            <div className='container row mx-auto'>
+            <div className='container row mx-auto' style={{ justifyContent: "center" }}>
                 {
                     review.map(singleReview => <Card
-                        className='doctor-card m-2 m-md-1 col-lg-4 col-md-5 col-sm-7 t-image' key={singleReview._id}>
-                        <Card.Img variant="top" height={"300px"} src={singleReview.image} />
+                        className='doctor-card m-2 m-md-1 col-lg-4 col-md-5 col-sm-7 t-image ' key={singleReview._id}>
+                        <Card.Img variant="top" height={"200px"} src={singleReview.image} />
                         <Card.Body>
                             <Card.Title className='fw-bolder fs-4 text-center'>{singleReview.name} says ABOUT <br /> <span classname='fw-bold fs-4 text-danger'>{singleReview.productName}</span></Card.Title>
                             <Card.Text className='info text-center'>

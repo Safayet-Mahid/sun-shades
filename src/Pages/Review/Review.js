@@ -3,6 +3,7 @@ import Button from '@restart/ui/esm/Button';
 import React, { useState } from 'react';
 import { Alert } from 'react-bootstrap';
 import useAuth from '../../hooks/useAuth';
+import "./Review.css"
 
 const Review = () => {
     const [value, setValue] = useState(0);
@@ -39,25 +40,28 @@ const Review = () => {
 
     }
     return (
-        <div className='container' >
-            <h3>Enter your review</h3>
+        <div className='container review my-5 p-5' >
+            <h3 className="text-danger mb-3">Enter your review</h3>
             <Input className='mb-3' name="productName" onBlur={handleReviewData} style={{ width: "50%" }} placeholder="product name" /> <br />
             <TextField
                 id="outlined-multiline-static"
                 label="Review"
                 multiline
                 rows={4}
-                style={{ width: "50%" }}
+                style={{ width: "75%", border: "1px solid gold", outline: " gold" }}
                 onBlur={handleReviewData}
+
                 name="review"
 
                 placeholder="write your review"
             />
             <br />
-            <Typography component="legend">Place your rating</Typography>
+            <Typography component="legend" className='mt-3'>Place your rating</Typography>
             <Rating
                 name="simple-controlled"
                 value={value}
+
+
 
                 onChange={(event, newValue) => {
                     setValue(newValue);

@@ -18,6 +18,7 @@ import Homereview from './Pages/HomeReview/Homereview';
 import MakeAdmin from './Pages/MakeAdmin/MakeAdmin';
 import ManageAllOrders from './Pages/ManageAllOrders/ManageAllOrders';
 import AddProduct from './Pages/AddProduct/AddProduct';
+import ManageProducts from './Pages/ManageProducts/ManageProducts';
 
 function App() {
   return (
@@ -79,6 +80,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path='/addproduct'>
               <AddProduct></AddProduct>
+            </PrivateRoute>
+            <PrivateRoute path='/manageproducts'>
+              <ManageProducts></ManageProducts>
             </PrivateRoute>
 
             {/* <Route path="/addService">
