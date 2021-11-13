@@ -2,12 +2,11 @@ import { TextField } from '@mui/material';
 import Button from '@restart/ui/esm/Button';
 import React, { useState } from 'react';
 import { Alert } from 'react-bootstrap';
-import useAuth from '../../hooks/useAuth';
 
 const MakeAdmin = () => {
     const [email, setEmail] = useState('');
     const [success, setSuccess] = useState(false);
-    const { token } = useAuth();
+
     const handleOnBlur = e => {
         setEmail(e.target.value);
     }

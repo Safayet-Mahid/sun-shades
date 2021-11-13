@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { useHistory } from "react-router-dom";
 import { NavLink } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
-import login from "../../../images/login.png"
 const Register = () => {
 
     const [loginData, setLoginData] = useState({})

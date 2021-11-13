@@ -9,9 +9,7 @@ import "./ProductsInfo.css"
 const ProductsInfo = () => {
 
     const { productId } = useParams();
-    const [details, setDetails] = useState([]);
     const [userInfo, setUserInfo] = useState({})
-    const [singleDetail, setSingleDetail] = useState({});
 
     const { user } = useAuth();
 

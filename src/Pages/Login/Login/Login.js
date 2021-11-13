@@ -1,7 +1,6 @@
 import { Alert, Button, CircularProgress, Container, Grid, TextField, Typography } from '@mui/material';
 import React, { useState } from 'react';
 import { NavLink, useLocation, useHistory } from 'react-router-dom';
-import login from "../../../images/login.png"
 import useAuth from '../../../hooks/useAuth';
 
 

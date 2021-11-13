@@ -31,7 +31,9 @@ const ManageAllOrders = () => {
             <h2 className='text-center text-primary my-3'>All orders</h2>
             <div className='row mx-auto main'>
                 {
-                    allData.map(data => <div className='data-card col-md-4 col-sm-12'>
+                    allData.map(data => <div
+                        key={data._id}
+                        className='data-card col-md-4 col-sm-12'>
                         <h5>Name : {data.name} </h5>
                         <h5>Email : {data.email} </h5>
                         <h5>Address : {data.address} </h5>

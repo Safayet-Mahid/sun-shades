@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "./SingleProducts.css"
 
 const SingleProducts = (props) => {
-    const { _id, Name, Image, Specifications, Price, Ratings } = props.singleProduct
+    const { _id, Name, Image, Specifications, Price } = props.singleProduct
     return (
         <div className='service  col-lg-4 col-md-6 col-sm-12 '>
 

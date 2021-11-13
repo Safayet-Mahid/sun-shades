@@ -93,7 +93,7 @@ const useFirebase = () => {
             setIsLoading(false)
         });
         return () => unsubscribed;
-    }, [])
+    }, [auth])
 
     useEffect(() => {
         fetch(`https://cryptic-chamber-94490.herokuapp.com/users/${user.email}`)
