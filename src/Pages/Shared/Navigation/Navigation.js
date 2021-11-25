@@ -14,7 +14,7 @@ const Navigation = () => {
         <>
             <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand='lg' >
                 <Container>
-                    <Navbar.Brand className='brand'><Link to='/home'><span className="text-danger">SUN SHADES</span></Link></Navbar.Brand>
+                    <Navbar.Brand className='brand'><Link to='/home'><span className="text-danger">SUN SHADE</span></Link></Navbar.Brand>
 
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
