@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className="about-us footer-coloum col-lg-3 col-sm-7 col-md-5">
                         <h4>About Us</h4>
                         <hr />
-                        <p>SUN SHADE is an exceptional eye shades brand. Our diverse selection includes gucci, prada, raymonds, , dolce gabbana etc!</p>
+                        <p>SUN SHADE is an exceptional eye shades brand. Our diverse selection includes gucci, prada, raymonds, , dolce gabbana etc !</p>
                     </div>
                     <div className="quick-links footer-coloum col-lg-2 col-sm-5 col-md-2">
                         <h4>Quick Links</h4>
