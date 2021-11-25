@@ -21,7 +21,7 @@ const Navigation = () => {
 
                         <Nav className="me-auto">
                             <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
-                            <Nav.Link as={HashLink} to="/products">Explore</Nav.Link>
+                            <Nav.Link as={HashLink} to="/products">Explore More</Nav.Link>
 
 
                             {
