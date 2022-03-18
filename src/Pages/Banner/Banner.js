@@ -20,7 +20,7 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100 image img-fluid"
-                        src="https://www.spex4less.com/blog/wp-content/uploads/2020/12/xcoatings-and-lenses-blog-1-770x317.jpg.pagespeed.ic.KTqanq3qH2.jpg"
+                        src="https://images.unsplash.com/photo-1608539733292-190446b22b83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3VuZ2xhc3Nlc3xlbnwwfHwwfHw%3D&w=1000&q=80"
                         alt="Second slide"
                     />
 
